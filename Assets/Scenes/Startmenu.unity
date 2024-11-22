@@ -2231,7 +2231,19 @@ MonoBehaviour:
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1975652183}
+        m_TargetAssemblyTypeName: AudioSlider, Assembly-CSharp
+        m_MethodName: SetLevel
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1975652183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2244,9 +2256,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16f35538586ccdd4d82094442f7541a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mixer: {fileID: 0}
-  audioMixerParameter: 
-  slider: {fileID: 0}
+  mixer: {fileID: 24100000, guid: e58b9a1882490b14398925cd17f67db9, type: 2}
+  audioMixerParameter: MyExposedParam
+  slider: {fileID: 1975652182}
   sliderValueText: {fileID: 1013861166}
   valueScaleType: 0
 --- !u!1 &1998259852
