@@ -273,6 +273,17 @@
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f7dd359c-23b4-44e0-b241-5a80b0b6bbcd",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -366,6 +377,15 @@
                     "type": "PassThrough",
                     "id": "00536aa8-7b48-4a98-a5d0-bbce0d3613fc",
                     "expectedControlType": "Quaternion",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Change Input to Player",
+                    "type": "Button",
+                    "id": "d00de0f7-74f2-4ab1-a8d0-87248d4c6e34",
+                    "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -787,6 +807,17 @@
                     "processors": "",
                     "groups": "XR",
                     "action": "TrackedDeviceOrientation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d0f6da03-8075-4a8a-be76-05d9d2553b7d",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Change Input to Player",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
