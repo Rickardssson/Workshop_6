@@ -18,22 +18,11 @@ public class JumpTest : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("space"))
-        {
-            playerAnimator.SetBool("jumping", true);
-            SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
-            spriteRenderer.flipX = true;
-        }
-        
         if (Input.GetKey("w"))
         {
             playerAnimator.SetBool("jumping", true);
             SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
             spriteRenderer.flipX = false;
-        }
-        if (Input.GetKeyUp("space"))
-        {
-            playerAnimator.SetBool("running", false);
         }
         
         if (Input.GetKeyUp("w"))
