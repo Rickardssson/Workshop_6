@@ -11,7 +11,8 @@ public class DialogueManager : MonoBehaviour
    private Queue<string> sentences;
    
    public Animator animator;
-
+   public Animator animator2;
+   
    private void Start()
    {
       sentences = new Queue<string>();
@@ -58,6 +59,7 @@ public class DialogueManager : MonoBehaviour
       StopAllCoroutines();
       animator.SetBool("isOpen", false);
       Debug.Log("Ending Conversation");
+      animator2.SetBool("QuestStart", true );
    }
 }
 

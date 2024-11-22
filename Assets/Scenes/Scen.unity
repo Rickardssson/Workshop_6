@@ -2337,6 +2337,7 @@ MonoBehaviour:
   namefield: {fileID: 1160654198}
   dialoguefield: {fileID: 1306830804}
   animator: {fileID: 60224399}
+  animator2: {fileID: 34020923}
 --- !u!1 &1779245048
 GameObject:
   m_ObjectHideFlags: 0
