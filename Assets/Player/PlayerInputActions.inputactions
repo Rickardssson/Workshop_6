@@ -34,12 +34,12 @@
                 },
                 {
                     "name": "Jump",
-                    "type": "PassThrough",
-                    "id": "ac220337-415c-4794-a982-a87203b20a07",
+                    "type": "Button",
+                    "id": "70aa462c-67f8-4212-a99f-1c7bd1c077a8",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": false
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -265,11 +265,11 @@
                 },
                 {
                     "name": "",
-                    "id": "1893df23-2c84-4b1a-960c-76c5aa37da3a",
+                    "id": "1d908f0a-131f-4c44-8415-3b9b6ad68e56",
                     "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
