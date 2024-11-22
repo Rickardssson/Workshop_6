@@ -160,7 +160,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2939806926976783676, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
       propertyPath: maxSpeed
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2939806926976783676, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
       propertyPath: jumpForce
@@ -191,20 +191,24 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5877329727610497745, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
+      propertyPath: m_Radius
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5877329727610497745, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
       propertyPath: m_Offset.y
-      value: 0.52
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5877329727610497745, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7049607983374208956, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
       propertyPath: m_Size.x
-      value: 0.76
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7049607983374208956, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
       propertyPath: m_Size.y
-      value: 1.02
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7049607983374208956, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
       propertyPath: m_IsTrigger
