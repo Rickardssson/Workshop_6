@@ -1728,11 +1728,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-<<<<<<< Updated upstream
     name: RandomNpc
-=======
-    name: RandoNPC
->>>>>>> Stashed changes
     sentences:
     - "It is me the NPC!\r\nWelcome to our world\r\nYour adventure has only just
       begun\r"
