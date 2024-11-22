@@ -299,7 +299,7 @@ GameObject:
   - component: {fileID: 1779245051}
   - component: {fileID: 1779245050}
   m_Layer: 0
-  m_Name: bakgrund
+  m_Name: withoutcollision
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
