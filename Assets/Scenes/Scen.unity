@@ -323,8 +323,20 @@ PrefabInstance:
       value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4717711120089970740, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
+      propertyPath: m_ActionEvents.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4717711120089970740, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
       propertyPath: m_ActionEvents.Array.data[13].m_ActionId
       value: 70aa462c-67f8-4212-a99f-1c7bd1c077a8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4717711120089970740, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
+      propertyPath: m_ActionEvents.Array.data[14].m_ActionId
+      value: d00de0f7-74f2-4ab1-a8d0-87248d4c6e34
+      objectReference: {fileID: 0}
+    - target: {fileID: 4717711120089970740, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
+      propertyPath: m_ActionEvents.Array.data[14].m_ActionName
+      value: UI/Change Input to Player[/Keyboard/p]
       objectReference: {fileID: 0}
     - target: {fileID: 4717711120089970740, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
       propertyPath: m_ActionEvents.Array.data[13].m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -442,6 +454,12 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8966234213669277553, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1903953889}
+    - targetCorrespondingSourceObject: {fileID: 8966234213669277553, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1903953888}
     - targetCorrespondingSourceObject: {fileID: 8966234213669277553, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1903953881}
@@ -2337,7 +2355,7 @@ MonoBehaviour:
   namefield: {fileID: 1160654198}
   dialoguefield: {fileID: 1306830804}
   animator: {fileID: 60224399}
-  animator2: {fileID: 34020923}
+  animator2: {fileID: 0}
 --- !u!1 &1779245048
 GameObject:
   m_ObjectHideFlags: 0
@@ -5971,6 +5989,30 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1903953888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51982627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b942cf4ddc39d4a44957cea9425f698c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1903953889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51982627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8abb8bc6cdf8c594a9ed76307038d442, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2108272696
 GameObject:
   m_ObjectHideFlags: 0
