@@ -1743,6 +1743,9 @@ MonoBehaviour:
     - 'Are you up for the challenge?
 
       Then do as I, the NPC, says!'
+    - " As my newest apprentice\nI order you to murder that spider over there\nJust
+      be in it\xB4s vicinity and it will cower in your presence"
+    - Muhahahahaha!
 --- !u!95 &1335849339
 Animator:
   serializedVersion: 5
