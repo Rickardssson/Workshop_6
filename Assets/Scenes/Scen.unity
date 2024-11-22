@@ -130,6 +130,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1828820721840526081, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2939806926976783676, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
       propertyPath: maxSpeed
       value: 10
@@ -138,17 +142,29 @@ PrefabInstance:
       propertyPath: jumpForce
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 7049607983374208956, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
+      propertyPath: m_Size.x
+      value: 0.76
+      objectReference: {fileID: 0}
+    - target: {fileID: 7049607983374208956, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
+      propertyPath: m_Size.y
+      value: 1.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 7173993473987041974, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1023409518, guid: a01a7ad2482b6694da67702a3beb75ac, type: 3}
     - target: {fileID: 7173993473987041974, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
       propertyPath: m_Color.b
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7173993473987041974, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
       propertyPath: m_Color.g
-      value: 0.16926205
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7173993473987041974, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
       propertyPath: m_Color.r
-      value: 0.033018887
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7173993473987041974, guid: 0504ea1c1e9ec4a46952399f491366b3, type: 3}
       propertyPath: m_SortingOrder
@@ -4471,6 +4487,10 @@ PrefabInstance:
     - target: {fileID: 6470653456167055118, guid: 6d0240decf93aeb49836ce3e6dd573ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6953085585889541824, guid: 6d0240decf93aeb49836ce3e6dd573ad, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
