@@ -5791,6 +5791,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 7866479144749272686, guid: 6d0240decf93aeb49836ce3e6dd573ad, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1335849339}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
